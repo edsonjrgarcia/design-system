@@ -16,8 +16,11 @@ var colors = {
   ignite900: "#00291D"
 };
 
-// src/index.ts
-console.log("Ok!");
+// src/index.tsx
+import { jsx } from "react/jsx-runtime";
+function App() {
+  return /* @__PURE__ */ jsx("h1", { style: { color: colors.ignite500 }, children: "Hello World!" });
+}
 export {
-  colors
+  App
 };
