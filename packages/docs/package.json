@@ -32,6 +32,8 @@
   "dependencies": {
     "@media-recovery-ui/react": "*",
     "@media-recovery-ui/tokens": "*",
+    "@media-recovery-ui/ts-config": "*",
+    "polished": "^4.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
